@@ -1,0 +1,7 @@
+Entity_ID:ID,Entity_Name,:Label,CreateTimeStamp,EFFDT,TERMDT,HashKey,Version,Status,Entity_Type,Entity_Parent_Name,Entity_Parent_Type,coordinate,Snipets
+5S7MO4JV3DH1C1VDKCUHGHD2GP,RS-1,Select_list,20230801172336,20230801172336,99991231000000,5S7MO4JV3DH1C1VDKCUHGHD2GP,1,I,Select_list,DEFAULT,Schema,`[{"hashCode":"0","x":2,"y":12},{"hashCode":"0","x":2,"y":13}]`,`    select * from analytics.DBT_GGITHIRI.stg_customers`
+2UFNO0IIS23283KC5MDI9RRT3Q,RS-2,Select_list,20230801172336,20230801172336,99991231000000,2UFNO0IIS23283KC5MDI9RRT3Q,1,I,Select_list,DEFAULT,Schema,`[{"hashCode":"0","x":6,"y":12},{"hashCode":"0","x":6,"y":13}]`,`    select * from analytics.DBT_GGITHIRI.fct_orders`
+2MG4KALOMJVPIVI3BB67QP73CJ,RS-3,Select_list,20230801172336,20230801172336,99991231000000,2MG4KALOMJVPIVI3BB67QP73CJ,1,I,Select_list,DEFAULT,Schema,`[{"hashCode":"0","x":11,"y":9},{"hashCode":"0","x":15,"y":38}]`,`        customer_id,`
+4TS64US8HOGTUBAU0VN7P9E5PC,RS-4,Select_list,20230801172336,20230801172336,99991231000000,4TS64US8HOGTUBAU0VN7P9E5PC,1,I,Select_list,DEFAULT,Schema,`[{"hashCode":"0","x":22,"y":9},{"hashCode":"0","x":28,"y":74}]`,`        customers.customer_id,`
+7ORITKE87CT17ECSU99IQ2KII,RS-5,Select_list,20230801172336,20230801172336,99991231000000,7ORITKE87CT17ECSU99IQ2KII,1,I,Select_list,DEFAULT,Schema,`[{"hashCode":"0","x":35,"y":8},{"hashCode":"0","x":35,"y":9}]`,`select * from final`
+
