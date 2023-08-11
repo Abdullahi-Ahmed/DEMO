@@ -1,0 +1,9 @@
+Entity_ID:ID,Entity_Name,:Label,CreateTimeStamp,EFFDT,TERMDT,HashKey,Version,Status,Entity_Type,Entity_Parent_Name,Entity_Parent_Type,coordinate,Snipets
+6G2NBASI16M64VPIL93BUVUVMN,coalesce,Function,20230801172336,20230801172336,99991231000000,6G2NBASI16M64VPIL93BUVUVMN,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":28,"y":9},{"hashCode":"0","x":28,"y":54}]`,`        coalesce(customer_orders.number_of_orders, 0) as number_of_orders`
+74R8RIFN9N7TMH93V0SHUGC9EE,count,Function,20230801172336,20230801172336,99991231000000,74R8RIFN9N7TMH93V0SHUGC9EE,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":14,"y":9},{"hashCode":"0","x":14,"y":24}]`,`        count(order_id) as number_of_orders,`
+5KEJIUS5HNCLU6NOADC5G69UQP,max,Function,20230801172336,20230801172336,99991231000000,5KEJIUS5HNCLU6NOADC5G69UQP,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":13,"y":9},{"hashCode":"0","x":13,"y":24}]`,`        max(order_date) as most_recent_order_date,`
+4RRPFN04UMI0B58THQQC1TH086,min,Function,20230801172336,20230801172336,99991231000000,4RRPFN04UMI0B58THQQC1TH086,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":12,"y":9},{"hashCode":"0","x":12,"y":24}]`,`        min(order_date) as first_order_date,`
+2I6JF92HSLT1BTFS5477LAJLOG,sum,Function,20230801172336,20230801172336,99991231000000,2I6JF92HSLT1BTFS5477LAJLOG,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":15,"y":9},{"hashCode":"0","x":15,"y":20}]`,`        sum(amount) as lifetime_value`
+6DJ5RJRBLDEURM05Q9UC14SL2A,case-when,Function,20230801172340,20230801172340,99991231000000,6DJ5RJRBLDEURM05Q9UC14SL2A,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":12,"y":13},{"hashCode":"0","x":12,"y":57}]`,
+59MRTL9VE6HUL5C43QQH15E0S0,round,Function,20230801172353,20230801172353,99991231000000,59MRTL9VE6HUL5C43QQH15E0S0,1,I,Function,DEFAULT,Schema,`[{"hashCode":"0","x":7,"y":5},{"hashCode":"0","x":7,"y":34}]`,
+

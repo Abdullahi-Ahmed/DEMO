@@ -1,0 +1,17 @@
+Connection Status : /Users/Shared/ADEPT/out/5.16.10
+Log File path : /Users/Shared/ADEPT/out/5.16.10/log/temp_job_10_main_job.log
+.---------+----------+----------+-------------------------------.
+|                           tLogRow_6                           |
+|=--------+----------+----------+------------------------------=|
+|newColumn|newColumn1|newColumn2|newColumn3                     |
+|=--------+----------+----------+------------------------------=|
+|         |          |          |/Users/Shared/ADEPT/out/5.16.10|
+'---------+----------+----------+-------------------------------'
+
+job_10_main_job - catalog_srcfiles_path : /Users/james.kimani/Development/repositories/eon_data_ingestion_onboarding/rehydrate_builder/eonkedemo/data_ingestion_framework/target/catalog.json
+job_10_main_job - manifest_srcfiles_path : /mnt/manifest.json
+job_10_main_job - Runresult_filePath : /mnt/run_results.json
+job_10_main_job - local_base_outputDirectory : /Users/Shared/ADEPT/out
+job_10_main_job - Job_Parent_Name : 5.16.10
+job_base_outputDirectory : /Users/Shared/ADEPT/out/5.16.10
+Graph data path : /Users/Shared/ADEPT/out/5.16.10/graph_data

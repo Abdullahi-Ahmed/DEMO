@@ -1,0 +1,37 @@
+entity file : /Users/Shared/ADEPT/out/5.16.10/temp/final/entity.csv
+attribute file : /Users/Shared/ADEPT/out/5.16.10/temp/final/entityattribute.csv
+/Users/Shared/ADEPT/out/5.16.10/temp/finalcsv/entity.csv (No such file or directory)
+/Users/Shared/ADEPT/out/5.16.10/temp/finalcsv/entityattribute.csv (No such file or directory)
+/Users/Shared/ADEPT/out/5.16.10/temp/finalcsv/entityrelation.csv (No such file or directory)
+Temp Path from job 60 : /Users/Shared/ADEPT/out/5.16.10
+Artifact Path from job 60 : /Users/Shared/ADEPT/out/artifacts
+dbtapi_entity path : /Users/Shared/ADEPT/out/artifacts/dbtapi_entity.csv
+dbtapi_entityrelation path : /Users/Shared/ADEPT/out/artifacts/dbtapi_entityrelation.csv
+Cypher : neo4j-admin.bat import --quote="`" --multiline-fields=true --skip-bad-relationships --skip-duplicate-nodes --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Accounts.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Analysis.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Column.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Compiled_SQL.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Database.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Function.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Macros.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Models.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Projects.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Schema.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Seeds.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Select_list.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Sources.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Systems.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Table.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Tags.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/Tests.csv --nodes=/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes/With_cte.csv --relationships=/Users/Shared/ADEPT/out/5.16.10/graph_data/relationships/All_Relationship.csv
+[ tChronometerStop_1 ]    2963 milliseconds
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 224, in _get_main_module_details
+    return _get_module_details(main_name)
+  File "/usr/lib/python3.9/runpy.py", line 141, in _get_module_details
+    raise error("No module named %s" % mod_name)
+ImportError: No module named __main__
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 190, in _run_module_as_main
+    mod_name, mod_spec, code = _get_main_module_details(_Error)
+  File "/usr/lib/python3.9/runpy.py", line 227, in _get_main_module_details
+    raise error("can't find %r module in %r" %
+runpy._Error: can't find '__main__' module in '/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 193, in _run_module_as_main
+    sys.exit(msg)
+SystemExit: /usr/bin/python3: can't find '__main__' module in '/Users/Shared/ADEPT/out/5.16.10/graph_data/nodes'
+>>> 
+[ tChronometerStop_1 ]    330969 milliseconds
+[ tChronometerStop_1 ]    331354 milliseconds
+[ tChronometerStop_1 ]    331470 milliseconds
